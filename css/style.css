@@ -77,6 +77,8 @@ ol {
 	margin-bottom: 110px;
 	padding-bottom: 2px;
 	line-height: normal;
+    font-size: 60px;
+    color: #1e1e24;
 }
 
 .section-title h2:after {
@@ -500,7 +502,7 @@ ol {
 }
 
 .resume-list li {
-	margin-bottom: 120px;
+	margin-bottom: 100px;
 	position: relative;
 }
 
@@ -521,8 +523,12 @@ ol {
 }
 
 .resume-list h2 {
-	font-size: 72px;
+	font-size: 50px;
 	margin-bottom: 10px;
+}
+
+.resume-list h3 {
+	font-size: 20px;
 }
 
 .resume-list h4 {
@@ -531,6 +537,15 @@ ol {
 	color: #808181;
 	margin-top: 10px;
 	margin-bottom: 45px;
+}
+
+.resume-list h5 {
+    margin-bottom: 20px;
+}
+
+.resume-list h6 {
+    margin-bottom: 10px;
+    text-indent: 40px;
 }
 
 .resume-list p {
@@ -847,7 +862,7 @@ ol {
 
 .home-three-style .hero-image,
 .home-four-style .hero-image {
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }
 
 .home-three-style .hero-text h2,
@@ -895,8 +910,8 @@ ol {
 .home-three-style .social-links,
 .home-four-style .social-links {
 	text-align: center;
-	padding-bottom: 70px;
-	padding-top: 120px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 .home-three-style .social-links a,
