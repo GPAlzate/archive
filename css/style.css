@@ -502,7 +502,7 @@ ol {
 }
 
 .resume-list li {
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 	position: relative;
 }
 
@@ -545,7 +545,7 @@ ol {
 
 .resume-list h6 {
     margin-bottom: 10px;
-    text-indent: 40px;
+    text-indent: 20px;
 }
 
 .resume-list p {

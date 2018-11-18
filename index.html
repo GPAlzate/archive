@@ -5,6 +5,14 @@
     https://colorlib.com/wp/template/civic/
 -->
 
+<!--
+
+    TODO LIST:
+
+    - add language badges
+
+-->
+
 <html lang="en">
 <head>
 	<title>Gabriel Alzate</title>
@@ -78,7 +86,7 @@
                             <p class="mb-5">I'm an aspiring software engineer/computer
                             science educator from the Philippines! I'm fascinated
                             by CS as a tool for research and a solution for non-CS
-                            related issues.I'm passionat about CS education and the
+                            related issues. I'm passionate about CS education and the
                                 <a href="https://www.csforall.org/">CSforAll</a>
                             initiative. <br><br> Outside the digital world, my interests
                             include music, badminton, the outdoors, and board games!
@@ -162,10 +170,10 @@
 							<ul class="language-progress">
 								<li>Java <div class="lan-prog" data-lanprogesss="5"></div></li>
 								<li>C <div class="lan-prog" data-lanprogesss="4"></div></li>
-								<li>C++ <div class="lan-prog" data-lanprogesss="3"></div></li>
+								<li>C++ <div class="lan-prog" data-lanprogesss="4"></div></li>
 								<li>Python <div class="lan-prog" data-lanprogesss="3"></div></li>
-								<li>HTML <div class="lan-prog" data-lanprogesss="4"></div></li>
-								<li>CSS <div class="lan-prog" data-lanprogesss="4"></div></li>
+								<li>HTML <div class="lan-prog" data-lanprogesss="3"></div></li>
+								<li>CSS <div class="lan-prog" data-lanprogesss="3"></div></li>
 								<li>Javascript <div class="lan-prog" data-lanprogesss="2"></div></li>
 							</ul>
 						</section>
@@ -178,6 +186,24 @@
 								<li>Tagalog <div class="lan-prog" data-lanprogesss="5"></div></li>
 							</ul>
 						</section>
+							<div class="icon-box-area spad">
+								<div class="icon-box">
+									<i class="flaticon-032-cooking"></i>
+									<p>Cooking</p>
+								</div>
+								<div class="icon-box">
+									<i class="flaticon-018-music-player"></i>
+									<p>Music</p>
+								</div>
+								<div class="icon-box">
+									<i class="flaticon-013-chess-1"></i>
+									<p>Board Games</p>
+								</div>
+								<div class="icon-box">
+									<i class="flaticon-022-hiking"></i>
+									<p>Hiking & Nature</p>
+								</div>
+							</div>
 					</div>
 				</div>
 
@@ -199,6 +225,45 @@
                                         <h6>Fundamentals of Computer Science</h6>
                                         <h6>Data Structures & Advanced Programming</h6>
                                     </ul>
+                                    <h5><br>Course Projects:</h5>
+
+                                        <div id="accordion">
+
+                                            <div class="card">
+                                                <div class="card-header" id="headGameTree">
+                                                    <h4 class="mb-0">
+                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#gameTree">
+                                                            Weak-AI Game Tree
+                                                        </button>
+                                                    </h4>
+                                                </div>
+                                                <div id="gameTree" class="collapse" aria-labelledby="headGameTree">
+                                                    <div class="card-body">
+                                                        A game tree with weak-AI capabilities that plays deterministic games and learns from losing moves. <br>
+                                                        <span class="badge badge-pill badge-danger">Java</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header" id="headCompress">
+                                                    <h4 class="mb-0">
+                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#compress">
+                                                            Data Compression
+                                                        </button>
+                                                    </h4>
+                                                </div>
+                                                <div id="compress" class="collapse" aria-labelledby="headCompress">
+                                                    <div class="card-body">
+                                                        A doubly-linked-list structure that compresses data. Compresses images by holding the information
+                                                        of consecutive pixels in one node. <br>
+                                                        <span class="badge badge-pill badge-danger">Java</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
 								</li>
 
 								<li>
@@ -213,6 +278,64 @@
                                         <h6>Discrete Mathematics</h6>
                                         <h6>Mathematics for Systems and Algorithms</h6>
                                         <h6>Introduction to Data Science</h6>
+                                    </ul>
+                                    <h5><br>Course Projects:</h5>
+
+                                    <ul>
+                                        <div id="accordion">
+
+                                            <div class="card">
+                                                <div class="card-header" id="headCalc">
+                                                    <h4 class="mb-0">
+                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#calc">
+                                                            On-disk Scientific Calculator
+                                                        </button>
+                                                    </h4>
+                                                </div>
+                                                <div id="calc" class="collapse" aria-labelledby="headCalc">
+                                                    <div class="card-body">
+                                                        A scientific calculator that uses stacks and self-balancing binary search trees.
+                                                        Allows for unary and binary mathematical functions and the use of variables to store data.<br>
+                                                        <span class="badge badge-pill badge-primary">C</span>
+                                                        <span class="badge badge-pill badge-info">C++</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header" id="headGui2048">
+                                                    <h4 class="mb-0">
+                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#gui2048">
+                                                            2048: GUI & Back-end
+                                                        </button>
+                                                    </h4>
+                                                </div>
+                                                <div id="gui2048" class="collapse" aria-labelledby="headGui2048">
+                                                    <div class="card-body">
+                                                        A reimagined "2048" game by adding extra features such as variable grid size, replay mode, and saved game-states.<br>
+                                                        <span class="badge badge-pill badge-danger">Java</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header" id="headMarkov">
+                                                    <h4 class="mb-0">
+                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#markov">
+                                                            Markov Model Text Generator
+                                                        </button>
+                                                    </h4>
+                                                </div>
+                                                <div id="markov" class="collapse" aria-labelledby="headMarkov">
+                                                    <div class="card-body">
+                                                        A text-generator by binding an nth-order Markov chain to long texts. Increased variability
+                                                        by allowing both character and word prefixes. Can generate speeches and children's stories. <br>
+                                                        <span class="badge badge-pill badge-danger">Java</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
                                     </ul>
 								</li>
 							</ul>
@@ -293,7 +416,7 @@
 						 TODO -->
 
 
-						<!-- skill section start -->
+						<!-- skill section start
 						<div class="skill-section">
 							<div class="section-title">
 								<h2>Skills</h2>
@@ -316,26 +439,8 @@
 									<p>HTML</p>
 								</div>
 							</div>
-							<div class="icon-box-area spad">
-								<div class="icon-box">
-									<i class="flaticon-032-cooking"></i>
-									<p>Cooking</p>
-								</div>
-								<div class="icon-box">
-									<i class="flaticon-018-music-player"></i>
-									<p>Music</p>
-								</div>
-								<div class="icon-box">
-									<i class="flaticon-013-chess-1"></i>
-									<p>Board Games</p>
-								</div>
-								<div class="icon-box">
-									<i class="flaticon-022-hiking"></i>
-									<p>Hiking & Nature</p>
-								</div>
-							</div>
 						</div>
-						<!-- skill section end -->
+						skill section end -->
 					</div>
 				</div>
 			</div>
