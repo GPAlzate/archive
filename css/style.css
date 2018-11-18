@@ -318,6 +318,7 @@ ol {
 	position: relative;
 	padding-right: 150px;
 	margin-bottom: 30px;
+    width: 330px;
 }
 
 .language-progress .lan-prog {
@@ -543,14 +544,11 @@ ol {
     margin-bottom: 20px;
 }
 
-.resume-list h6 {
-    margin-bottom: 10px;
+.resume-list ul p {
+    margin-bottom: 0;
     text-indent: 20px;
 }
 
-.resume-list p {
-	margin-bottom: 0;
-}
 
 /*---------------------
 	Review section
