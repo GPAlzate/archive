@@ -71,9 +71,18 @@ ol {
 	padding-bottom: 60px;
 }
 
-.btn-primary-outline {
-  background-color: transparent;
-  border-color: #ccc;
+.btn-primary {
+    background-color: transparent;
+    border-color: #dfdfdf;
+}
+
+.btn-link {
+    font-size: 0.8rem;
+}
+
+.btn-primary:hover {
+    background-color: #f2f7f8;
+    border-color: #dfdfdf;
 }
 
 .section-title {
