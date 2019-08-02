@@ -71,12 +71,13 @@ ol {
 	padding-bottom: 60px;
 }
 
-.section-title {
-    height: 8rem;
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
 }
 
-.card {
-    width: 32rem;
+.section-title {
+    height: 8rem;
 }
 
 .section-title h2 {
