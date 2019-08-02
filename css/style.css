@@ -71,6 +71,14 @@ ol {
 	padding-bottom: 60px;
 }
 
+.section-title {
+    height: 8rem;
+}
+
+.card {
+    width: 32rem;
+}
+
 .section-title h2 {
 	display: inline-block;
 	position: relative;
@@ -387,7 +395,7 @@ ol {
 }
 
 .header-buttons a {
-	margin-top: 15px;
+	margin-top: 0px;
 }
 
 /*---------------------
@@ -816,7 +824,7 @@ ol {
 .home-three-style .main-left-area,
 .home-four-style .main-left-area {
 	background: #f2f7f8;
-	padding-top: 200px;
+	padding-top: 80px;
 	padding-right: 80px;
 	padding-left: 80px;
 }
@@ -829,7 +837,7 @@ ol {
 
 .home-three-style .main-right-area,
 .home-four-style .main-right-area {
-	padding-top: 200px;
+	padding-top: 130px;
 	padding-left: 110px;
 }
 
@@ -928,7 +936,7 @@ ol {
 /*---------------------
 	Home 4 Style
 -----------------------*/
-.home-four-style .site-logo h2 a,
+.home-four-style .site-logo h2,
 .home-four-style .site-logo p {
 	color: #fff;
 }
