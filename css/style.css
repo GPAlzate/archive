@@ -71,6 +71,17 @@ ol {
 	padding-bottom: 60px;
 }
 
+.exp-logo{
+    max-width:25%;
+    max-height:25%;
+}
+
+.exp-card *:not(a){
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
 .card-header,
 .btn-primary {
     background-color: transparent;
