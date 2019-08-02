@@ -79,7 +79,7 @@
                             </div>
 							<div class="hero-text">
 								<h2 style="font-size: 4rem;">Gabriel Alzate</h2>
-								<p>I’m Gabe, a second year at 
+                                <p>I’m <b>Gabe</b>, a second year at 
                                     <a href="https://www.pomona.edu/">Pomona College</a>
                                 pursuing a Bachelor's in Computer Science!</p>
 							</div>
@@ -94,7 +94,7 @@
 							</div>
 						</section>
 
-						<section class="language-section spad" style="padding-bottom: 0">
+						<section class="language-section spad">
 							<div class="section-title">
 								<h2>Programming Languages</h2>
 							</div>
@@ -108,7 +108,8 @@
 								<li>Javascript <div class="lan-prog" data-lanprogesss="2"></div></li>
 							</ul>
 						</section>
-						<section class="language-section spad" style="padding-bottom: 0">
+                        <!--
+						<section class="language-section spad">
 							<div class="section-title">
 								<h2>Software Tools</h2>
 							</div>
@@ -127,6 +128,7 @@
 								<li>Tagalog <div class="lan-prog" data-lanprogesss="5"></div></li>
 							</ul>
 						</section>
+                                -->
 							<div class="section-title">
 								<h2>Hobbies</h2>
 							</div>
@@ -161,6 +163,11 @@
 						<!-- Resume section start -->
 						<section class="resume-section">
 							<ul class="resume-list">
+                                <!--
+                                <div class="section-title">
+                                    <h2>Education</h2>
+                                </div>
+                                -->
 								<li style="margin-bottom: 4rem">
 									<h2>Pomona College</h2>
 									<h3>Bachelor's in Computer Science, minor in Mathematics</h3>
@@ -174,149 +181,156 @@
                                         <p>Fundamentals of CS & Functional Programming</p>
                                         <p>Introduction to Data Science</p>
                                         <p>Linear Algebra</p>
-                                        <p>Software Tools & Techniques Laboratory</p>
                                     </ul>
 
                                     <br>
 
-                                    <h5>
-                                      <a class="btn btn-primary" data-toggle="collapse"
-                                          href="#collapseProjects" role="button" 
-                                          aria-expanded="false" aria-controls="collapseProjects"
-                                          style="font-size: 1.25rem;">
-                                          <font color="#40424a">My Projects! +</font>
-                                      </a>
-                                    </h5>
-                                    <div class="collapse" id="collapseProjects">
-                                      <div class="card card-body">
-                                        
-                                        <div id="accordion">
+                                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" style="font-size: 1.25rem;">
+                                      <font color="#40424a">Check out my projects! +</font>
+                                  </button>
 
-                                            <div class="card">
-                                                <div class="card-header" id="headGraphs">
-                                                    <h4 class="mb-0">
-                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#graphs">
-                                                            Shortest Path and Quickest Time: Graphs
-                                                        </button>
-                                                    </h4>
-                                                </div>
-                                                <div id="graphs" class="collapse" aria-labelledby="headGraphs">
-                                                    <div class="card-body">
-                                                        A program that implementes Dijkstra's algorithm
-                                                        to calculate the best path in terms of
-                                                        some arbitrary factor to get to a destination. <br>
-                                                        <span class="badge badge-pill badge-danger">Java</span>
-                                                    </div>
-                                                </div>
-                                            </div>
 
-                                            <div class="card">
-                                                <div class="card-header" id="headBuffer">
-                                                    <h4 class="mb-0">
-                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#buffer">
-                                                            Ring Buffer
-                                                        </button>
-                                                    </h4>
-                                                </div>
-                                                <div id="buffer" class="collapse" aria-labelledby="headBuffer">
-                                                    <div class="card-body">
-                                                        A circular buffer message queue that handles the producer-consumer
-                                                        problem. It uses locks and condition variables to ascertain thread
-                                                        synchronization. <br>
-                                                        <span class="badge badge-pill badge-danger">C</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                      <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                              <div class="modal-header" style="padding-bottom: 0">
+                                                  <h5 class="modal-title" id="exampleModalLongTitle">My Projects</h5>
+                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                  </button>
+                                              </div>
+                                              <div class="modal-body">
 
-                                            <div class="card">
-                                                <div class="card-header" id="headCalc">
-                                                    <h4 class="mb-0">
-                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#calc">
-                                                            On-disk Scientific Calculator
-                                                        </button>
-                                                    </h4>
-                                                </div>
-                                                <div id="calc" class="collapse" aria-labelledby="headCalc">
-                                                    <div class="card-body">
-                                                        A scientific calculator that uses stacks and self-balancing binary search trees.
-                                                        Allows for unary and binary mathematical functions and the use of variables to store data.<br>
-                                                        <span class="badge badge-pill badge-primary">C</span>
-                                                        <span class="badge badge-pill badge-info">C++</span>
-                                                    </div>
-                                                </div>
-                                            </div>
 
-                                            <div class="card">
-                                                <div class="card-header" id="headMarkov">
-                                                    <h4 class="mb-0">
-                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#markov">
-                                                            Markov Model Text Generator
-                                                        </button>
-                                                    </h4>
-                                                </div>
-                                                <div id="markov" class="collapse" aria-labelledby="headMarkov">
-                                                    <div class="card-body">
-                                                        A text-generator by binding an nth-order Markov chain to long texts. Increased variability
-                                                        by allowing both character and word prefixes. Can generate speeches and children's stories. <br>
-                                                        <span class="badge badge-pill badge-danger">Java</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                  <div id="accordion">
 
-                                            <div class="card">
-                                                <div class="card-header" id="headGameTree">
-                                                    <h4 class="mb-0">
-                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#gameTree">
-                                                            Game Tree AI
-                                                        </button>
-                                                    </h4>
-                                                </div>
-                                                <div id="gameTree" class="collapse" aria-labelledby="headGameTree">
-                                                    <div class="card-body">
-                                                        A game tree with weak-AI capabilities that plays deterministic games and learns from losing moves. <br>
-                                                        <span class="badge badge-pill badge-danger">Java</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                      <div class="card">
+                                                          <div class="card-header" id="headGraphs">
+                                                              <h4 class="mb-0">
+                                                                  <button class="btn btn-link" data-toggle="collapse" data-target="#graphs">
+                                                                      Shortest Path and Quickest Time: Graphs
+                                                                  </button>
+                                                              </h4>
+                                                          </div>
+                                                          <div id="graphs" class="collapse" aria-labelledby="headGraphs">
+                                                              <div class="card-body">
+                                                                  A program that implementes Dijkstra's algorithm
+                                                                  to calculate the best path in terms of
+                                                                  some arbitrary factor to get to a destination. <br>
+                                                                  <span class="badge badge-pill badge-danger">Java</span>
+                                                              </div>
+                                                          </div>
+                                                      </div>
 
-                                            <div class="card">
-                                                <div class="card-header" id="headCompress">
-                                                    <h4 class="mb-0">
-                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#compress">
-                                                            Data Compression
-                                                        </button>
-                                                    </h4>
-                                                </div>
-                                                <div id="compress" class="collapse" aria-labelledby="headCompress">
-                                                    <div class="card-body">
-                                                        A doubly-linked-list structure that compresses data. Compresses images by holding the information
-                                                        of consecutive pixels in one node. <br>
-                                                        <span class="badge badge-pill badge-danger">Java</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                      <div class="card">
+                                                          <div class="card-header" id="headBuffer">
+                                                              <h4 class="mb-0">
+                                                                  <button class="btn btn-link" data-toggle="collapse" data-target="#buffer">
+                                                                      Ring Buffer
+                                                                  </button>
+                                                              </h4>
+                                                          </div>
+                                                          <div id="buffer" class="collapse" aria-labelledby="headBuffer">
+                                                              <div class="card-body">
+                                                                  A circular buffer message queue that handles the producer-consumer
+                                                                  problem. It uses locks and condition variables to ascertain thread
+                                                                  synchronization. <br>
+                                                                  <span class="badge badge-pill badge-primary">C</span>
+                                                              </div>
+                                                          </div>
+                                                      </div>
 
-                                            <div class="card">
-                                                <div class="card-header" id="headParallel">
-                                                    <h4 class="mb-0">
-                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#parallel">
-                                                            Census Data Parallel Programming
-                                                        </button>
-                                                    </h4>
-                                                </div>
-                                                <div id="parallel" class="collapse" aria-labelledby="headParallel">
-                                                    <div class="card-body">
-                                                        Parses US Census groups to calculate the population of one or many groups. Uses
-                                                        the ForkJoin framework to parse files and calculate populations with a span of O(log n). <br>
-                                                        <span class="badge badge-pill badge-danger">Java</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                      <div class="card">
+                                                          <div class="card-header" id="headCalc">
+                                                              <h4 class="mb-0">
+                                                                  <button class="btn btn-link" data-toggle="collapse" data-target="#calc">
+                                                                      On-disk Scientific Calculator
+                                                                  </button>
+                                                              </h4>
+                                                          </div>
+                                                          <div id="calc" class="collapse" aria-labelledby="headCalc">
+                                                              <div class="card-body">
+                                                                  A scientific calculator that uses stacks and self-balancing binary search trees.
+                                                                  Allows for unary and binary mathematical functions and the use of variables to store data.<br>
+                                                                  <span class="badge badge-pill badge-primary">C</span>
+                                                                  <span class="badge badge-pill badge-info">C++</span>
+                                                              </div>
+                                                          </div>
+                                                      </div>
 
-                                        </div>
+                                                      <div class="card">
+                                                          <div class="card-header" id="headMarkov">
+                                                              <h4 class="mb-0">
+                                                                  <button class="btn btn-link" data-toggle="collapse" data-target="#markov">
+                                                                      Markov Model Text Generator
+                                                                  </button>
+                                                              </h4>
+                                                          </div>
+                                                          <div id="markov" class="collapse" aria-labelledby="headMarkov">
+                                                              <div class="card-body">
+                                                                  A text-generator by binding an nth-order Markov chain to long texts. Increased variability
+                                                                  by allowing both character and word prefixes. Can generate speeches and children's stories. <br>
+                                                                  <span class="badge badge-pill badge-danger">Java</span>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+
+                                                      <div class="card">
+                                                          <div class="card-header" id="headGameTree">
+                                                              <h4 class="mb-0">
+                                                                  <button class="btn btn-link" data-toggle="collapse" data-target="#gameTree">
+                                                                      Game Tree AI
+                                                                  </button>
+                                                              </h4>
+                                                          </div>
+                                                          <div id="gameTree" class="collapse" aria-labelledby="headGameTree">
+                                                              <div class="card-body">
+                                                                  A game tree with weak-AI capabilities that plays deterministic games and learns from losing moves. <br>
+                                                                  <span class="badge badge-pill badge-danger">Java</span>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+
+                                                      <div class="card">
+                                                          <div class="card-header" id="headCompress">
+                                                              <h4 class="mb-0">
+                                                                  <button class="btn btn-link" data-toggle="collapse" data-target="#compress">
+                                                                      Data Compression
+                                                                  </button>
+                                                              </h4>
+                                                          </div>
+                                                          <div id="compress" class="collapse" aria-labelledby="headCompress">
+                                                              <div class="card-body">
+                                                                  A doubly-linked-list structure that compresses data. Compresses images by holding the information
+                                                                  of consecutive pixels in one node. <br>
+                                                                  <span class="badge badge-pill badge-danger">Java</span>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+
+                                                      <div class="card">
+                                                          <div class="card-header" id="headParallel">
+                                                              <h4 class="mb-0">
+                                                                  <button class="btn btn-link" data-toggle="collapse" data-target="#parallel">
+                                                                      Census Data Parallel Programming
+                                                                  </button>
+                                                              </h4>
+                                                          </div>
+                                                          <div id="parallel" class="collapse" aria-labelledby="headParallel">
+                                                              <div class="card-body">
+                                                                  Parses US Census groups to calculate the population of one or many groups. Uses
+                                                                  the ForkJoin framework to parse files and calculate populations with a span of O(log n). <br>
+                                                                  <span class="badge badge-pill badge-danger">Java</span>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+
+                                                  </div> <!-- Accordion -->
+
+                                              </div>
+                                          </div>
                                       </div>
-                                    </div>
-
+                                  </div>
 
 								</li>
 							</ul>
@@ -353,13 +367,14 @@
 								</li>
 							</ul>
 						</section>
-						Work section end -->
+                        Work section end -->
 
 						<!-- Resume section start -->
 						<section class="resume-section">
 							<div class="section-title">
 								<h2>Experience</h2>
 							</div>
+
 							<ul class="resume-list">
 								<li>
                                     <h2><a href="https://www.kalibrr.com/">Kalibrr</a>
@@ -427,78 +442,23 @@
 								</li>
 							</ul>
 						</section>
-						<!-- Resume section end -->
 						
-						<!-- Review section start TODO
-						<section class="review-section spad">
-							<div class="section-title">
-								<h2>References</h2>
-							</div>
-							<div class="review-slider owl-carousel">
-								<div class="single-review">
-									<div class="qut">“</div>
-									<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
-									<h3>Robert G. Smith</h3>
-									<h4>Manager, Company</h4>
-								</div>
-								<div class="single-review">
-									<div class="qut">“</div>
-									<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
-									<h3>Robert G. Smith</h3>
-									<h4>Manager, Company</h4>
-								</div>
-								<div class="single-review">
-									<div class="qut">“</div>
-									<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
-									<h3>Robert G. Smith</h3>
-									<h4>Manager, Company</h4>
-								</div>
-							</div>
-						</section>
-						 TODO -->
-
-
-						<!-- skill section start
-						<div class="skill-section">
-							<div class="section-title">
-								<h2>Skills</h2>
-							</div>
-							<div class="skills">
-								<div class="single-progress-item">
-									<div class="progress-bar-style" data-progress="34"></div>
-									<p>Design</p>
-								</div>
-								<div class="single-progress-item">
-									<div class="progress-bar-style" data-progress="75"></div>
-									<p>Illsutrator</p>
-								</div>
-								<div class="single-progress-item">
-									<div class="progress-bar-style" data-progress="87"></div>
-									<p>Photoshop</p>
-								</div>
-								<div class="single-progress-item">
-									<div class="progress-bar-style" data-progress="60"></div>
-									<p>HTML</p>
-								</div>
-							</div>
-						</div>
-						skill section end -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Footer section start -->
+	<!-- Footer section start
 	<footer class="footer-section">
 		<div class="container text-center">
-			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			<div class="copyright"> Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+ Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
 </div>
 		</div>
 	</footer>
-	<!-- Footer section end -->
+	Footer section end -->
 		
 
 	<!--====== Javascripts & Jquery ======-->

@@ -76,6 +76,11 @@ ol {
     border-color: #dfdfdf;
 }
 
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #f2f7f8;
+    background: #f2f7f8; !important
+}
+
 .btn-link {
     font-size: 0.8rem;
 }
