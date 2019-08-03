@@ -71,6 +71,18 @@ ol {
 	padding-bottom: 60px;
 }
 
+.card {
+    background-color: transparent;
+}
+
+#accordion {
+    padding-bottom: 3.7rem;
+}
+
+.col-xl-8{
+    background-color: #fff;
+}
+
 .exp-logo{
     max-width:25%;
     max-height:25%;
@@ -88,13 +100,17 @@ ol {
     border-color: #dfdfdf;
 }
 
-.btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem #f2f7f8;
-    background: #f2f7f8; !important
+.exp-acc .card .card-header {
+    border-bottom: none;
 }
 
 .btn-link {
     font-size: 0.8rem;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #f2f7f8;
+    background: #f2f7f8 !important;
 }
 
 .btn-primary:hover {
@@ -198,7 +214,7 @@ ol {
 	text-align: center;
 	padding: 20px 10px 15px;
 	position: relative;
-	background-color: #fff;
+	background-color: transparent;
 	margin-right: 10px;
 	border: 2px solid #40424a;
 	color: #40424a;
@@ -460,7 +476,7 @@ ol {
 }
 
 .hero-info ul li {
-	font-size: 18px;
+	font-size: 16px;
 	color: #808181;
 	margin-bottom: 15px;
 }
@@ -468,7 +484,8 @@ ol {
 .hero-info ul li span {
 	color: #40424a;
 	display: inline-block;
-	min-width: 220px;
+	min-width: 190px;
+	max-width: 200px;
 }
 
 .hero-info ul li:last-child {
@@ -865,7 +882,8 @@ ol {
 .home-three-style .main-right-area,
 .home-four-style .main-right-area {
 	padding-top: 130px;
-	padding-left: 110px;
+	padding-left: 30px;
+    padding-right: 30px;
 }
 
 .home-three-style .resume-list li,
@@ -1286,7 +1304,7 @@ ol {
 		margin-left: 10%;
 	}
 	.hero-info ul li span {
-		min-width: 180px;
+		min-width: 110px;
 	}
 	.portfolio-item .port-pic {
 		height: 310px;
@@ -1299,7 +1317,7 @@ ol {
 		padding-left: 30px;
 	}
 	.home-three-style .main-right-area {
-		padding-left: 100px;
+		padding-left: 30px;
 	}
 }
 

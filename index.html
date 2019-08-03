@@ -49,16 +49,16 @@
 		<header class="header-section">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-5">
-						<div class="site-logo">
+					<div class="col-md-4">
+						<div class="site-logo" style="padding-bottom: 3rem">
 							<h1 style="font-size: 2.6rem">Hello, World!</a></h1>
 						</div>
 					</div>
-					<div class="col-md-4 text-md-center header-buttons">
-						<button type="button" class="btn site-btn" data-toggle="modal" data-target="#exampleModalLong">Check out my projects!</button>
+					<div class="col-md-4 text-center header-buttons">
+                        <a class="site-btn" data-toggle="modal" href="#exampleModalLong">Check out my projects!</a>
 					</div>
-					<div class="col-md-3 text-md-left header-buttons">
-						<a href="resume.pdf" class="site-btn">Resume</a>
+					<div class="col-md-4 text-center header-buttons">
+                        <a href="resume.pdf" class="site-btn">Resume</a>
 					</div>
 				</div>
 			</div>
@@ -67,11 +67,11 @@
 		
 		<div class="container-fluid p-0">
 			<div class="row m-0">
-				<div class="col-xl-5 col-lg-5 p-0">
+				<div class="col-xl-4 p-0">
 					<div class="main-left-area h-100">
 						<section class="intro-section">
 							<figure class="hero-image">
-								<img src="img/hero.jpg" alt="">
+								<img src="img/hero.jpg" alt="" style="padding-top: 1.5rem">
 							</figure>
                             <div class="social-links">
                                 <a href="https://www.facebook.com/GabeAlzate03"><i class="fa fa-facebook"></i></a>
@@ -84,7 +84,7 @@
                                     <a href="https://www.pomona.edu/">Pomona College</a>
                                 pursuing a Bachelor's in Computer Science!</p>
 							</div>
-							<div class="hero-info pt-5">
+							<div class="hero-info pt-3">
 								<h2>General Info</h2>
 								<ul>
 									<li><span>Date of Birth</span>Oct 03, 1998</li>
@@ -96,9 +96,7 @@
 						</section>
 
 						<section class="language-section spad">
-							<div class="section-title">
-								<h2>Programming Languages</h2>
-							</div>
+                            <h2 style="margin-bottom: 30px;">Programming Languages</h2>
 							<ul class="language-progress">
 								<li>Java <div class="lan-prog" data-lanprogesss="5"></div></li>
 								<li>Python <div class="lan-prog" data-lanprogesss="4"></div></li>
@@ -110,35 +108,26 @@
 							</ul>
 						</section>
 
-							<div class="section-title">
-								<h2>Hobbies</h2>
-							</div>
-							<div class="icon-box-area spad" style="padding-top: 0">
-								<div class="icon-box">
-									<i class="flaticon-032-cooking"></i>
-									<p>Cooking</p>
-								</div>
-								<div class="icon-box">
-									<i class="flaticon-018-music-player"></i>
-									<p>Music</p>
-								</div>
-								<div class="icon-box">
-									<i class="flaticon-013-chess-1"></i>
-									<p>Board Games</p>
-								</div>
-								<div class="icon-box">
-									<i class="flaticon-035-tent"></i>
-									<p>Hiking & Nature</p>
-								</div>
-								<div class="icon-box">
-									<i class="flaticon-022-hiking"></i>
-									<p>Traveling</p>
-								</div>
-							</div>
+                        <h2 style="margin-bottom: 30px;">Hobbies</h2>
+                        <div class="icon-box-area spad" style="padding-top: 0">
+                            <div class="icon-box">
+                                <i class="flaticon-018-music-player"></i>
+                                <p>Music</p>
+                            </div>
+                            <div class="icon-box">
+                                <i class="flaticon-013-chess-1"></i>
+                                <p>Puzzles</p>
+                            </div>
+                            <div class="icon-box">
+                                <i class="flaticon-022-hiking"></i>
+                                <p>Traveling</p>
+                            </div>
+                        </div>
+
 					</div>
 				</div>
 
-				<div class="col-xl-6 col-lg-7">
+				<div class="col-xl-8">
 					<div class="main-right-area">
 
 						<!-- Resume section start -->
@@ -149,7 +138,7 @@
                                     <h2>Education</h2>
                                 </div>
                                 -->
-								<li style="margin-top: 1rem; margin-bottom: 5rem;">
+								<li style="margin-top: 1rem; margin-bottom: 3.7rem;">
 									<h2>Pomona College</h2>
 									<h3>Bachelor's in Computer Science, minor in Mathematics</h3>
 									<h4>Expected May 2021</h4>
@@ -350,7 +339,7 @@
 								<h2>Experience</h2>
 							</div>
 
-                            <div id="accordion">
+                            <div id="accordion" class="exp-acc">
 
                                 <div class="card">
                                     <div class="card-header" id="headKalibrr">
@@ -419,6 +408,56 @@
 
                             </div> <!-- Accordion -->
 
+							<div class="section-title">
+								<h2>Experience</h2>
+                            </div>
+
+                            <div id="accordion">
+
+                                <div class="card">
+                                    <div class="card-header" id="headITS" style="padding-bottom: 2px">
+                                        <center>
+                                            <input type="image" role="tab" src="img/its.png" class="exp-logo" data-toggle="collapse" data-target="#its"
+                                                    style="border-radius: 50%; max-height: 10%; max-width: 10%">
+                                        </center>
+                                    </div>
+                                        <div id="its" class="collapse exp-card" aria-labelledby="headITS">
+                                            <h2>Pomona
+                                                <a href="https://research.pomona.edu/hpc/about/">ITS-HPC</a>
+                                            Support Staff
+                                            </h2>
+                                            <h3>Sept 2018 - Feb 2019</h3>
+                                            <h4>Claremont, CA</h4>
+                                            <p>Managed tutorials of version control (i.e. Git) through
+                                            <a href="https://research.pomona.edu/hpc/about/">
+                                                Pomona's Hahn Grant: Teaching with Technology
+                                            </a>
+                                            program. The grant focuses on encouraging the use
+                                            of society's advancing tech in non-STEM fields!</p>
+                                        </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" id="headCSES" style="padding-top: 20px; padding-bottom: 20px;">
+                                        <center>
+                                            <input type="image" role="tab" src="img/cses.png" class="exp-logo" data-toggle="collapse" data-target="#cses"
+                                                    style="max-height: 20%; max-width: 20%">
+                                        </center>
+                                    </div>
+                                    <div id="cses" class="collapse exp-card" aria-labelledby="headCSES">
+                                        <h2>UCSD
+                                            <a href="https://cses.ucsd.edu/">CSES</a>
+                                        Outreach Chair
+                                        </h2>
+                                        <h3>Sept 2017 - June 2018</h3>
+                                        <h4>La Jolla, CA</h4>
+                                        <p>I served as an outreach leader for a community of engineers and computer scientists.
+                                        Also in charge of generating interest in CS amongst high school students and
+                                        enlightening aspiring engineers about software tools and development environments.</p>
+                                    </div>
+                                </div>
+
+                            </div> <!-- Accordion -->
 
                             <!--
 							<ul class="resume-list">
