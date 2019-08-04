@@ -66,6 +66,9 @@ ol {
 /*---------------------
 	Helper CSS
 -----------------------*/
+img {
+    padding-top: 50px;
+}
 .spad {
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -421,7 +424,7 @@ ol {
 -----------------------*/
 .header-section {
 	padding: 50px 40px;
-	background: #f2f7f8;
+    background: #f2f7f8;
 }
 
 .site-logo h2 {
@@ -464,7 +467,7 @@ ol {
 }
 
 .hero-image {
-	padding-top: 50px;
+	padding-top: 0;
 }
 
 .hero-info h2 {
@@ -868,7 +871,7 @@ ol {
 .home-three-style .main-left-area,
 .home-four-style .main-left-area {
 	background: #f2f7f8;
-	padding-top: 80px;
+	padding-top: 0px;
 	padding-right: 80px;
 	padding-left: 80px;
 }
@@ -908,8 +911,10 @@ ol {
 	padding: 50px 80px;
 	background: transparent;
 	position: absolute;
-	width: 100%;
 	z-index: 1;
+	width: 66%;
+    left: auto;
+    right: 0;
 }
 
 .home-three-style .hero-image,
@@ -1271,6 +1276,14 @@ ol {
 /* ===========================
   Responsive
 ==============================*/
+@media only screen and (min-width: 2000px) {
+    .header-section {
+        width: 66%;
+        left: auto;
+        right: 0;
+    }
+}
+
 @media only screen and (max-width: 1730px) {
 	.home-two-style .social-section .social-link-warp:after {
 		display: none;
@@ -1295,6 +1308,11 @@ ol {
 }
 
 @media only screen and (max-width: 1366px) and (min-width: 1200px) {
+    .header-section {
+        width: 66%;
+        left: auto;
+        right: 0;
+    }
 	.home-five-style .header-section {
 		position: relative;
 		background: #f2f7f8;
@@ -1323,11 +1341,15 @@ ol {
 
 /* Medium screen : 992px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hero-image {
+        padding-top: 150px;
+    }
 	.portfolio-warp {
 		padding: 0;
 	}
 	.home-three-style .header-section {
 		padding: 50px 15px;
+        width: 100%;
 	}
 	.home-three-style .main-left-area {
 		padding-right: 15px;
@@ -1383,6 +1405,7 @@ ol {
 	.home-four-style .main-right-area {
 		padding-right: 30px;
 		padding-left: 30px;
+        width: 100%;
 	}
 	.home-five-style .header-section,
 	.home-six-style .header-section {
@@ -1459,6 +1482,7 @@ ol {
 	.home-four-style .main-right-area {
 		padding-right: 30px;
 		padding-left: 30px;
+        width: 100%;
 	}
 	.home-five-style .header-section,
 	.home-six-style .header-section {
@@ -1471,6 +1495,9 @@ ol {
 
 /* small Mobile :320px. */
 @media only screen and (max-width: 479px) {
+    img {
+        padding-top: 0;
+    }
 	.hero-text h2 {
 		font-size: 50px;
 	}
