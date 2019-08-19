@@ -69,9 +69,14 @@ ol {
 img {
     padding-top: 50px;
 }
+
 .spad {
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+
+.card-header {
+    cursor: pointer;
 }
 
 .card {

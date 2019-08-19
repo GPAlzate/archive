@@ -184,7 +184,7 @@
                                                 <div id="accordion" style="padding-bottom: 1rem">
                                 
                                                     <div class="card">
-                                                        <div class="card-header" id="headGraphs">
+                                                        <div class="card-header" id="headGraphs" data-toggle="collapse" data-target="#graphs">
                                                             <h4 class="mb-0">
                                                                 <button class="btn btn-link" data-toggle="collapse" data-target="#graphs">
                                                                     Shortest Path and Quickest Time: Graphs
@@ -202,7 +202,7 @@
                                                     </div>
                                 
                                                     <div class="card">
-                                                        <div class="card-header" id="headBuffer">
+                                                        <div class="card-header" id="headBuffer" data-toggle="collapse" data-target="#buffer">
                                                             <h4 class="mb-0">
                                                                 <button class="btn btn-link" data-toggle="collapse" data-target="#buffer">
                                                                     Ring Buffer
@@ -220,7 +220,7 @@
                                                     </div>
 
                                                     <div class="card">
-                                                        <div class="card-header" id="headPath">
+                                                        <div class="card-header" id="headPath" data-toggle="collapse" data-target="#path">
                                                             <h4 class="mb-0">
                                                                 <button class="btn btn-link" data-toggle="collapse" data-target="#path">
                                                                     PATH
@@ -243,7 +243,7 @@
                                                     </div>
                                 
                                                     <div class="card">
-                                                        <div class="card-header" id="headCalc">
+                                                        <div class="card-header" id="headCalc" data-toggle="collapse" data-target="#calc">
                                                             <h4 class="mb-0">
                                                                 <button class="btn btn-link" data-toggle="collapse" data-target="#calc">
                                                                     On-disk Scientific Calculator
@@ -262,7 +262,7 @@
                                                     </div>
                                 
                                                     <div class="card">
-                                                        <div class="card-header" id="headMarkov">
+                                                        <div class="card-header" id="headMarkov" data-toggle="collapse" data-target="#markov">
                                                             <h4 class="mb-0">
                                                                 <button class="btn btn-link" data-toggle="collapse" data-target="#markov">
                                                                     Markov Model Text Generator
@@ -282,7 +282,7 @@
                                                     </div>
                                 
                                                     <div class="card">
-                                                        <div class="card-header" id="headGameTree">
+                                                        <div class="card-header" id="headGameTree" data-toggle="collapse" data-target="#gameTree">
                                                             <h4 class="mb-0">
                                                                 <button class="btn btn-link" data-toggle="collapse" data-target="#gameTree">
                                                                     Game Tree AI
@@ -300,7 +300,7 @@
                                                     </div>
                                 
                                                     <div class="card">
-                                                        <div class="card-header" id="headCompress">
+                                                        <div class="card-header" id="headCompress" data-toggle="collapse" data-target="#compress">
                                                             <h4 class="mb-0">
                                                                 <button class="btn btn-link" data-toggle="collapse" data-target="#compress">
                                                                     Data Compression
@@ -368,9 +368,10 @@
                             <div id="accordion" class="exp-acc">
 
                                 <div class="card">
-                                    <div class="card-header" id="headKalibrr">
+                                    <div class="card-header" id="headKalibrr" data-toggle="collapse" data-target="#kalibrr">
                                         <center>
-                                            <input type="image" role="tab" src="img/kalibrr.png" class="exp-logo" data-toggle="collapse" data-target="#kalibrr">
+                                            <input type="image" role="tab" src="img/kalibrr.png" class="exp-logo" data-toggle="collapse" data-target="#kalibrr"
+                                                    style="max-height: 200px; max-width: 200px">
                                         </center>
                                     </div>
                                     <div id="kalibrr" class="collapse exp-card" aria-labelledby="headKalibrr">
@@ -389,10 +390,10 @@
                                 </div>
 
                                 <div class="card">
-                                    <div class="card-header" id="headPomona">
+                                    <div class="card-header" id="headPomona" data-toggle="collapse" data-target="#pomona">
                                         <center>
                                             <input type="image" role="tab" src="img/pomona.png" class="exp-logo" data-toggle="collapse" data-target="#pomona"
-                                                    style="max-height: 20%; max-width: 20%">
+                                                    style="max-height: 190px; max-width: 190px">
                                         </center>
                                     </div>
                                     <div id="pomona" class="collapse exp-card" aria-labelledby="headPomona">
@@ -412,10 +413,10 @@
                                 </div>
 
                                 <div class="card">
-                                    <div class="card-header" id="headMT">
+                                    <div class="card-header" id="headMT" data-toggle="collapse" data-target="#middletree">
                                         <center>
                                             <input type="image" role="tab" src="img/mt.png" class="exp-logo" data-toggle="collapse" data-target="#middletree"
-                                                    style="max-height: 40%; max-width: 40%">
+                                                    style="max-height: 300px; max-width: 300px">
                                         </center>
                                     </div>
                                     <div id="middletree" class="collapse exp-card" aria-labelledby="headMT">
@@ -441,10 +442,10 @@
                             <div id="accordion">
 
                                 <div class="card">
-                                    <div class="card-header" id="headITS" style="padding-bottom: 2px">
+                                    <div class="card-header" id="headITS" style="padding-bottom: 2px" data-toggle="collapse" data-target="#its">
                                         <center>
                                             <input type="image" role="tab" src="img/its.png" class="exp-logo" data-toggle="collapse" data-target="#its"
-                                                    style="border-radius: 50%; max-height: 10%; max-width: 10%">
+                                                    style="border-radius: 50%; max-height: 70px; max-width: 70px">
                                         </center>
                                     </div>
                                         <div id="its" class="collapse exp-card" aria-labelledby="headITS">
@@ -464,10 +465,10 @@
                                 </div>
 
                                 <div class="card">
-                                    <div class="card-header" id="headCSES" style="padding-top: 20px; padding-bottom: 20px;">
+                                    <div class="card-header" id="headCSES" style="padding-top: 20px; padding-bottom: 20px;" data-toggle="collapse" data-target="#cses">
                                         <center>
                                             <input type="image" role="tab" src="img/cses.png" class="exp-logo" data-toggle="collapse" data-target="#cses"
-                                                    style="max-height: 20%; max-width: 20%">
+                                                    style="max-height: 150px; max-width: 150px">
                                         </center>
                                     </div>
                                     <div id="cses" class="collapse exp-card" aria-labelledby="headCSES">
